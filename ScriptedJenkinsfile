@@ -11,7 +11,7 @@ node {
             if (isUnix()) {
                 sh 'ant'         // it will by default look for build.xml in home directory and pick default target
             } else {
-                bat('ant').      // it will by default look for build.xml in home directory and pick default target
+                bat('ant')      // it will by default look for build.xml in home directory and pick default target
             }
         }
     }
